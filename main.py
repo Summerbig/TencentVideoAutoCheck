@@ -49,7 +49,7 @@ def tencent_video_sign_in():
         rsp_score = sign_rsp_json['check_in_score']
 
         print("本次签到积分："+str(rsp_score))
-        requests.get('https://sc.ftqq.com/自己的sever酱号.send?text=' + quote('签到积分：'+str(rsp_score)))
+        requests.get('https://sc.ftqq.com/SCT104877T7Lmq3XaCUOXULQtS943jz6tT.send?text=' + quote('签到积分：'+str(rsp_score)))
 
 
 if __name__ == '__main__':
